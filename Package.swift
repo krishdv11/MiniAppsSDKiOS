@@ -12,21 +12,10 @@ let package = Package(
             targets: ["MiniAppsSDK"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/weichsel/ZIPFoundation.git", from: "0.9.0")
-    ],
     targets: [
-        .target(
+        .binaryTarget(
             name: "MiniAppsSDK",
-            dependencies: [
-                .product(name: "ZIPFoundation", package: "ZIPFoundation")
-            ],
-            path: "Framework",
-            exclude: [
-                "MiniAppsSDK.h",
-                "module.modulemap",
-                "Models/banners_response.json"
-            ]
+            path: "Binary/MiniAppsSDK.xcframework"
         )
     ]
 )

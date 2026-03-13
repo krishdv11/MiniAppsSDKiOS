@@ -1,0 +1,2178 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MiniAppsSDK",
+    "printedName": "MiniAppsSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ZIPFoundation",
+        "printedName": "ZIPFoundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiniApp",
+        "printedName": "MiniApp",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appId",
+            "printedName": "appId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV5appIdSSvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV5appIdSSvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV5appIdSSvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV5appIdSSvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV4nameSSvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV4nameSSvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV4nameSSvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV4nameSSvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "category",
+            "printedName": "category",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV8categorySSvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV8categorySSvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV8categorySSvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV8categorySSvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iconUrl",
+            "printedName": "iconUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV7iconUrlSSvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV7iconUrlSSvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV7iconUrlSSvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV7iconUrlSSvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayOrder",
+            "printedName": "displayOrder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV12displayOrderSivp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV12displayOrderSivp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV12displayOrderSivg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV12displayOrderSivg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "partnerId",
+            "printedName": "partnerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV9partnerIdSSSgvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV9partnerIdSSSgvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV9partnerIdSSSgvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV9partnerIdSSSgvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latestVersion",
+            "printedName": "latestVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV13latestVersionSSvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV13latestVersionSSvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV13latestVersionSSvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV13latestVersionSSvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rolloutPercent",
+            "printedName": "rolloutPercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV14rolloutPercentSiSgvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV14rolloutPercentSiSgvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV14rolloutPercentSiSgvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV14rolloutPercentSiSgvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bridgeVersion",
+            "printedName": "bridgeVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV13bridgeVersionSSSgvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV13bridgeVersionSSSgvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV13bridgeVersionSSSgvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV13bridgeVersionSSSgvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permissions",
+            "printedName": "permissions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV11permissionsSaySSGSgvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV11permissionsSaySSGSgvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV11permissionsSaySSGSgvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV11permissionsSaySSGSgvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "riskLevel",
+            "printedName": "riskLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0A3AppV9riskLevelSSSgvp",
+            "mangledName": "$s11MiniAppsSDK0A3AppV9riskLevelSSSgvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0A3AppV9riskLevelSSSgvg",
+                "mangledName": "$s11MiniAppsSDK0A3AppV9riskLevelSSSgvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MiniApp",
+                "printedName": "MiniAppsSDK.MiniApp",
+                "usr": "s:11MiniAppsSDK0A3AppV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MiniAppsSDK0A3AppV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11MiniAppsSDK0A3AppV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MiniAppsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MiniAppsSDK0A3AppV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11MiniAppsSDK0A3AppV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MiniAppsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11MiniAppsSDK0A3AppV",
+        "mangledName": "$s11MiniAppsSDK0A3AppV",
+        "moduleName": "MiniAppsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiniAppViewController",
+        "printedName": "MiniAppViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appId:version:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MiniAppViewController",
+                "printedName": "MiniAppsSDK.MiniAppViewController",
+                "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MiniAppsSDK0A17AppViewControllerC5appId7versionACSS_SStcfc",
+            "mangledName": "$s11MiniAppsSDK0A17AppViewControllerC5appId7versionACSS_SStcfc",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppViewController(im)viewDidLoad",
+            "mangledName": "$s11MiniAppsSDK0A17AppViewControllerC11viewDidLoadyyF",
+            "moduleName": "MiniAppsSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MiniAppViewController",
+                "printedName": "MiniAppsSDK.MiniAppViewController",
+                "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s11MiniAppsSDK0A17AppViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MiniAppsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MiniAppsSDK@objc(cs)MiniAppViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s11MiniAppsSDK0A17AppViewControllerC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MiniAppsSDK@objc(cs)MiniAppViewController(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s11MiniAppsSDK0A17AppViewControllerC03webE0_28didFailProvisionalNavigation9withErrorySo05WKWebE0C_So12WKNavigationCSgs0M0_ptF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MiniAppsSDK@objc(cs)MiniAppViewController(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s11MiniAppsSDK0A17AppViewControllerC03webE0_7didFail9withErrorySo05WKWebE0C_So12WKNavigationCSgs0K0_ptF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppViewController",
+        "mangledName": "$s11MiniAppsSDK0A17AppViewControllerC",
+        "moduleName": "MiniAppsSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiniAppsBannerView",
+        "printedName": "MiniAppsBannerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onBannerTapped",
+            "printedName": "onBannerTapped",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MiniAppsSDK.MiniApp) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MiniAppsSDK.MiniApp) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MiniApp",
+                        "printedName": "MiniAppsSDK.MiniApp",
+                        "usr": "s:11MiniAppsSDK0A3AppV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MiniAppsSDK0aB10BannerViewC02onD6TappedyAA0A3AppVcSgvp",
+            "mangledName": "$s11MiniAppsSDK0aB10BannerViewC02onD6TappedyAA0A3AppVcSgvp",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MiniAppsSDK.MiniApp) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MiniAppsSDK.MiniApp) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MiniApp",
+                            "printedName": "MiniAppsSDK.MiniApp",
+                            "usr": "s:11MiniAppsSDK0A3AppV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0aB10BannerViewC02onD6TappedyAA0A3AppVcSgvg",
+                "mangledName": "$s11MiniAppsSDK0aB10BannerViewC02onD6TappedyAA0A3AppVcSgvg",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MiniAppsSDK.MiniApp) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MiniAppsSDK.MiniApp) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MiniApp",
+                            "printedName": "MiniAppsSDK.MiniApp",
+                            "usr": "s:11MiniAppsSDK0A3AppV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0aB10BannerViewC02onD6TappedyAA0A3AppVcSgvs",
+                "mangledName": "$s11MiniAppsSDK0aB10BannerViewC02onD6TappedyAA0A3AppVcSgvs",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MiniAppsSDK0aB10BannerViewC02onD6TappedyAA0A3AppVcSgvM",
+                "mangledName": "$s11MiniAppsSDK0aB10BannerViewC02onD6TappedyAA0A3AppVcSgvM",
+                "moduleName": "MiniAppsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MiniAppsBannerView",
+                "printedName": "MiniAppsSDK.MiniAppsBannerView",
+                "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsBannerView(im)initWithFrame:",
+            "mangledName": "$s11MiniAppsSDK0aB10BannerViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "MiniAppsSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiniAppsSDK.MiniAppsBannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiniAppsBannerView",
+                    "printedName": "MiniAppsSDK.MiniAppsBannerView",
+                    "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsBannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsBannerView(im)initWithCoder:",
+            "mangledName": "$s11MiniAppsSDK0aB10BannerViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MiniAppsSDK",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MiniAppsSDK.MiniApp]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiniApp",
+                    "printedName": "MiniAppsSDK.MiniApp",
+                    "usr": "s:11MiniAppsSDK0A3AppV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MiniAppsSDK0aB10BannerViewC9configure4withySayAA0A3AppVG_tF",
+            "mangledName": "$s11MiniAppsSDK0aB10BannerViewC9configure4withySayAA0A3AppVG_tF",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MiniAppsSDK@objc(cs)MiniAppsBannerView(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s11MiniAppsSDK0aB10BannerViewC010collectionE0_22numberOfItemsInSectionSiSo012UICollectionE0C_SitF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MiniAppsSDK@objc(cs)MiniAppsBannerView(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s11MiniAppsSDK0aB10BannerViewC010collectionE0_13cellForItemAtSo012UICollectionE4CellCSo0kE0C_10Foundation9IndexPathVtF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:sizeForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MiniAppsSDK@objc(cs)MiniAppsBannerView(im)collectionView:layout:sizeForItemAtIndexPath:",
+            "mangledName": "$s11MiniAppsSDK0aB10BannerViewC010collectionE0_6layout13sizeForItemAtSo6CGSizeVSo012UICollectionE0C_So0mE6LayoutC10Foundation9IndexPathVtF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "collectionView:layout:sizeForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didSelectItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MiniAppsSDK@objc(cs)MiniAppsBannerView(im)collectionView:didSelectItemAtIndexPath:",
+            "mangledName": "$s11MiniAppsSDK0aB10BannerViewC010collectionE0_15didSelectItemAtySo012UICollectionE0C_10Foundation9IndexPathVtF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "collectionView:didSelectItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsBannerView",
+        "mangledName": "$s11MiniAppsSDK0aB10BannerViewC",
+        "moduleName": "MiniAppsSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ZIPFoundation",
+        "printedName": "ZIPFoundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiniAppsManager",
+        "printedName": "MiniAppsManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MiniAppsManager",
+                "printedName": "MiniAppsSDK.MiniAppsManager",
+                "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsManager(cpy)shared",
+            "mangledName": "$s11MiniAppsSDK0aB7ManagerC6sharedACvpZ",
+            "moduleName": "MiniAppsSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiniAppsManager",
+                    "printedName": "MiniAppsSDK.MiniAppsManager",
+                    "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsManager(cm)shared",
+                "mangledName": "$s11MiniAppsSDK0aB7ManagerC6sharedACvgZ",
+                "moduleName": "MiniAppsSDK",
+                "static": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(baseURL:appId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsManager(im)initializeWithBaseURL:appId:",
+            "mangledName": "$s11MiniAppsSDK0aB7ManagerC10initialize7baseURL5appIdySS_SStF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "initializeWithBaseURL:appId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSuperAppVersion",
+            "printedName": "setSuperAppVersion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsManager(im)setSuperAppVersion:",
+            "mangledName": "$s11MiniAppsSDK0aB7ManagerC18setSuperAppVersionyySSF",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchMiniAppsWithView",
+            "printedName": "fetchMiniAppsWithView(width:height:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIView?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(UIKit.UIView?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIView",
+                            "printedName": "UIKit.UIView",
+                            "usr": "c:objc(cs)UIView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsManager(im)fetchMiniAppsWithViewWithWidth:height:completion:",
+            "mangledName": "$s11MiniAppsSDK0aB7ManagerC05fetchaB8WithView5width6height10completionySi_SiySo6UIViewCSg_s5Error_pSgtctF",
+            "moduleName": "MiniAppsSDK",
+            "objc_name": "fetchMiniAppsWithViewWithWidth:height:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchMiniApps",
+            "printedName": "fetchMiniApps(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[MiniAppsSDK.MiniApp], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[MiniAppsSDK.MiniApp], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MiniAppsSDK.MiniApp]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MiniApp",
+                            "printedName": "MiniAppsSDK.MiniApp",
+                            "usr": "s:11MiniAppsSDK0A3AppV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MiniAppsSDK0aB7ManagerC05fetchaB010completionyys6ResultOySayAA0A3AppVGs5Error_pGc_tF",
+            "mangledName": "$s11MiniAppsSDK0aB7ManagerC05fetchaB010completionyys6ResultOySayAA0A3AppVGs5Error_pGc_tF",
+            "moduleName": "MiniAppsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MiniAppsSDK@objc(cs)MiniAppsManager",
+        "mangledName": "$s11MiniAppsSDK0aB7ManagerC",
+        "moduleName": "MiniAppsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppsSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Network\/APIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Network\/APIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Utils\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 18,
+      "value": "\"com.miniapps.sdk\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Utils\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 17,
+      "value": "\"DownloadManager\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Utils\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Utils\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Utils\/MetricsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Utils\/MetricsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/UI\/MiniAppsBannerView.swift",
+      "kind": "Array",
+      "offset": 237,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/MiniAppsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/MiniAppsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/MiniAppsSDK.swift",
+      "kind": "Array",
+      "offset": 494,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/MiniAppsSDK.swift",
+      "kind": "Array",
+      "offset": 546,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/MiniAppsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 23,
+      "value": "\"com.miniapps.download\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Utils\/StorageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 10,
+      "value": "\"miniapps\""
+    },
+    {
+      "filePath": "\/Users\/krishnamurari.y\/Desktop\/MiniAppsSDK\/Framework\/Utils\/VersionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 18,
+      "value": "\"miniapp_version_\""
+    }
+  ]
+}

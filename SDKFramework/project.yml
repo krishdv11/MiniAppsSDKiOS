@@ -1,0 +1,31 @@
+name: MiniAppsSDKFramework
+options:
+  minimumXcodeGenVersion: 2.38.0
+  deploymentTarget:
+    iOS: "13.0"
+packages:
+  ZIPFoundation:
+    url: https://github.com/weichsel/ZIPFoundation.git
+    from: 0.9.0
+targets:
+  MiniAppsSDK:
+    type: framework
+    platform: iOS
+    sources:
+      - path: ../Framework
+        excludes:
+          - MiniAppsSDK.h
+          - module.modulemap
+          - Models/banners_response.json
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.miniapps.sdk
+        PRODUCT_NAME: MiniAppsSDK
+        SKIP_INSTALL: NO
+        BUILD_LIBRARY_FOR_DISTRIBUTION: YES
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: 5.0
+    dependencies:
+      - package: ZIPFoundation
+    scheme:
+      testTargets: []

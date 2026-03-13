@@ -2,16 +2,18 @@
 
 This repository contains two fully separated deliverables:
 
-- `Framework/` - SDK source code (packaged as the `MiniAppsSDK` Swift Package)
+- `Binary/MiniAppsSDK.xcframework` - prebuilt SDK binary for external integration
 - `SampleApp/` - standalone iOS sample app that consumes the SDK via package dependency
 
-The sample app does not include SDK source files directly. It links `MiniAppsSDK` as an external package dependency, which follows standard iOS integration practices.
+Consumers integrate the SDK as a compiled binary (SPM/CocoaPods). SDK source files are not included in client app targets.
 
 ## Structure
 
-- `Package.swift` - package manifest for `MiniAppsSDK`
-- `Framework/` - SDK implementation
+- `Package.swift` - SPM binary package manifest for `MiniAppsSDK`
+- `Binary/` - XCFramework distribution artifact
 - `MiniAppsSDK.podspec` - CocoaPods spec for native iOS integration
+- `Framework/` - SDK source (internal implementation)
+- `Scripts/build_xcframework.sh` - regenerate binary artifact from source
 - `SampleApp/project.yml` - XcodeGen spec for sample app
 - `SampleApp/MiniAppsSampleApp.xcodeproj` - generated Xcode project
 - `SampleApp/Sources/App/` - sample app code
@@ -39,15 +41,7 @@ Do not copy SDK source files into your app target. Consume it as a dependency vi
 
 ### 2) Add SDK to Your Native iOS App
 
-#### Option A: Swift Package Manager (SPM) - local package
-
-1. Open your app in Xcode.
-2. Go to **File > Add Packages...**
-3. Click **Add Local...**
-4. Select this repository folder.
-5. Add product `MiniAppsSDK` to your app target.
-
-#### Option B: Swift Package Manager (SPM) - Git package
+#### Option A: Swift Package Manager (SPM) - Git package (recommended)
 
 1. In your app project, go to **File > Add Packages...**
 2. Use your repository URL:
@@ -56,6 +50,10 @@ Do not copy SDK source files into your app target. Consume it as a dependency vi
    - During development: `Branch` -> `main`
    - For release (recommended): `Up to Next Major` from a tag (for example `1.0.0`)
 4. Add product `MiniAppsSDK` to your app target.
+
+#### Option B: Swift Package Manager (SPM) - local package (internal only)
+
+Use local package integration only for internal SDK development/verification.
 
 If your app uses `Package.swift`, add it similar to Firebase-style package usage:
 
@@ -106,7 +104,7 @@ Note: `:tag => '1.0.0'` works only after that git tag exists in this repository.
 import MiniAppsSDK
 import UIKit
 
-MiniAppsSDK.shared.initialize(
+MiniAppsManager.shared.initialize(
     baseURL: "https://api.your-domain.com",
     appId: "your-super-app-id"
 )
@@ -115,13 +113,13 @@ MiniAppsSDK.shared.initialize(
 Optional:
 
 ```swift
-MiniAppsSDK.shared.setSuperAppVersion("2.0.0")
+MiniAppsManager.shared.setSuperAppVersion("2.0.0")
 ```
 
 ### 4) Render Banner View and Launch Mini Apps
 
 ```swift
-MiniAppsSDK.shared.fetchMiniAppsWithView(width: 360, height: 220) { view, error in
+MiniAppsManager.shared.fetchMiniAppsWithView(width: 360, height: 220) { view, error in
     if let error = error {
         print("MiniApps fetch failed: \(error.localizedDescription)")
         return

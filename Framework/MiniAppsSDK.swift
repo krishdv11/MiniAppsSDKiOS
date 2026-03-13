@@ -1,13 +1,14 @@
 
 import Foundation
 import UIKit
-import ZIPFoundation
+@_implementationOnly import ZIPFoundation
 
 /// Main SDK class for fetching and displaying Mini Apps banners
-@objc public class MiniAppsSDK: NSObject {
+@objc public class MiniAppsManager: NSObject {
     
-    /// Shared singleton instance of MiniAppsSDK
-    @objc public static let shared = MiniAppsSDK()
+    /// Shared singleton instance of MiniAppsManager
+    private static let sharedInstance = MiniAppsManager()
+    @objc public class var shared: MiniAppsManager { sharedInstance }
     
     private var baseURL: String = ""
     private var appId: String = ""

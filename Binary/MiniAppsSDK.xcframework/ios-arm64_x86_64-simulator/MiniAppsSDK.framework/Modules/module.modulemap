@@ -1,0 +1,4 @@
+framework module MiniAppsSDK {
+  header "MiniAppsSDK-Swift.h"
+  requires objc
+}

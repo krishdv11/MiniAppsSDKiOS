@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.swift_version    = "5.0"
   s.source           = { :git => "https://github.com/krishdv11/MiniAppsSDKiOS.git", :tag => s.version.to_s }
 
-  s.source_files     = "Framework/**/*.swift"
+  s.vendored_frameworks = "Binary/MiniAppsSDK.xcframework"
   s.frameworks       = "UIKit", "WebKit"
-  s.dependency       "ZIPFoundation"
 end

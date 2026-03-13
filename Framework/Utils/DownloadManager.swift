@@ -1,6 +1,6 @@
 
 import Foundation
-import ZIPFoundation
+@_implementationOnly import ZIPFoundation
 import os.log
 
 /// Internal manager for downloading and extracting mini app ZIP files

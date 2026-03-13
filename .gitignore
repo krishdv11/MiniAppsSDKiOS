@@ -11,3 +11,7 @@ build/
 # Swift Package Manager
 .build/
 Package.resolved
+
+# Local SDK build artifacts
+.build-artifacts/
+SDKFramework/MiniAppsSDKFramework.xcodeproj/
