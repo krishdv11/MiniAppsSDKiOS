@@ -1,0 +1,5 @@
+framework module MiniAppsSDK {
+    umbrella header "MiniAppsSDK.h"
+    export *
+    module * { export * }
+}

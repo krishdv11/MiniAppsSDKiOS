@@ -1,0 +1,27 @@
+name: MiniAppsSampleApp
+options:
+  minimumXcodeGenVersion: 2.38.0
+  deploymentTarget:
+    iOS: "15.0"
+packages:
+  MiniAppsSDK:
+    path: ../
+targets:
+  MiniAppsSampleApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.krishdv11.MiniAppsSampleApp
+        PRODUCT_NAME: MiniAppsSampleApp
+        INFOPLIST_FILE: Resources/Info.plist
+        SWIFT_VERSION: 5.0
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+    dependencies:
+      - package: MiniAppsSDK
+        product: MiniAppsSDK
+    scheme:
+      testTargets: []
