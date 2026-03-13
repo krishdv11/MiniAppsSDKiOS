@@ -11,6 +11,7 @@ The sample app does not include SDK source files directly. It links `MiniAppsSDK
 
 - `Package.swift` - package manifest for `MiniAppsSDK`
 - `Framework/` - SDK implementation
+- `MiniAppsSDK.podspec` - CocoaPods spec for native iOS integration
 - `SampleApp/project.yml` - XcodeGen spec for sample app
 - `SampleApp/MiniAppsSampleApp.xcodeproj` - generated Xcode project
 - `SampleApp/Sources/App/` - sample app code
@@ -27,14 +28,10 @@ The sample app does not include SDK source files directly. It links `MiniAppsSDK
    - `App ID`
 5. Tap **Initialize + Fetch Banners**.
 
-## Regenerate Project (if needed)
+## Integration Options
 
-If you edit `SampleApp/project.yml`, regenerate the project:
-
-```bash
-cd SampleApp
-xcodegen generate --spec project.yml
-```
+- Swift Package Manager (SPM)
+- CocoaPods
 
 ## Documentation
 

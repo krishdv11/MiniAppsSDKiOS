@@ -14,7 +14,7 @@ Do not copy SDK source files into your app target. Always consume the SDK as a d
 
 ## 2) Add SDK to Your Native iOS App
 
-### Option A: Local package (for development)
+### Option A: Swift Package Manager (SPM) - local package (development)
 
 1. Open your app in Xcode.
 2. Go to **File > Add Packages...**
@@ -22,7 +22,7 @@ Do not copy SDK source files into your app target. Always consume the SDK as a d
 4. Select the folder containing this repo.
 5. Add product `MiniAppsSDK` to your app target.
 
-### Option B: Git package (recommended for teams/CI)
+### Option B: Swift Package Manager (SPM) - Git package (recommended for teams/CI)
 
 1. Push this repo to GitHub (already done).
 2. In your app project, go to **File > Add Packages...**
@@ -30,6 +30,28 @@ Do not copy SDK source files into your app target. Always consume the SDK as a d
    - `git@github.com:<your-org>/<your-sdk-repo>.git`
 4. Choose branch/tag.
 5. Add `MiniAppsSDK` product to your app target.
+
+### Option C: CocoaPods
+
+1. In your app repository, update/create `Podfile`:
+
+```ruby
+platform :ios, '13.0'
+use_frameworks!
+
+target 'YourAppTarget' do
+  pod 'MiniAppsSDK', :git => 'git@github.com:<your-org>/<your-sdk-repo>.git', :tag => '1.0.0'
+end
+```
+
+2. Install pods:
+
+```bash
+pod repo update
+pod install
+```
+
+3. Open your generated `.xcworkspace` and build.
 
 ## 3) App-side Setup
 
