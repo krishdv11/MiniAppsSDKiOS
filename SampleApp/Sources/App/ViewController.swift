@@ -86,6 +86,7 @@ final class ViewController: UIViewController {
         setStatus("Initializing SDK...", isError: false)
 
         MiniAppsSDK.shared.initialize(baseURL: baseURL, appId: appId)
+        MiniAppsSDK.shared.setSuperAppVersion("4.2.1") 
         MiniAppsSDK.shared.fetchMiniAppsWithView(width: Int(view.bounds.width), height: 220) { [weak self] bannerView, error in
             guard let self = self else { return }
             if let error = error {
