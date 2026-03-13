@@ -51,20 +51,41 @@ Do not copy SDK source files into your app target. Consume it as a dependency vi
 
 1. In your app project, go to **File > Add Packages...**
 2. Use your repository URL:
-   - `git@github.com:<your-org>/<your-sdk-repo>.git`
-3. Choose branch/tag.
+   - `https://github.com/krishdv11/MiniAppsSDKiOS.git`
+3. Choose dependency rule:
+   - During development: `Branch` -> `main`
+   - For release (recommended): `Up to Next Major` from a tag (for example `1.0.0`)
 4. Add product `MiniAppsSDK` to your app target.
+
+If your app uses `Package.swift`, add it similar to Firebase-style package usage:
+
+```swift
+.package(url: "https://github.com/krishdv11/MiniAppsSDKiOS.git", from: "1.0.0")
+```
 
 #### Option C: CocoaPods
 
 1. Update/create `Podfile`:
+
+Use branch while you are iterating:
 
 ```ruby
 platform :ios, '13.0'
 use_frameworks!
 
 target 'YourAppTarget' do
-  pod 'MiniAppsSDK', :git => 'git@github.com:<your-org>/<your-sdk-repo>.git', :tag => '1.0.0'
+  pod 'MiniAppsSDK', :git => 'https://github.com/krishdv11/MiniAppsSDKiOS.git', :branch => 'main'
+end
+```
+
+For versioned releases (Firebase-like pinning), use a tag:
+
+```ruby
+platform :ios, '13.0'
+use_frameworks!
+
+target 'YourAppTarget' do
+  pod 'MiniAppsSDK', :git => 'https://github.com/krishdv11/MiniAppsSDKiOS.git', :tag => '1.0.0'
 end
 ```
 
@@ -76,6 +97,8 @@ pod install
 ```
 
 3. Open `.xcworkspace` and build.
+
+Note: `:tag => '1.0.0'` works only after that git tag exists in this repository.
 
 ### 3) App-side Setup
 
