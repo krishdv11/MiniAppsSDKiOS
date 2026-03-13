@@ -14,6 +14,8 @@ The sample app does not include SDK source files directly. It links `MiniAppsSDK
 - `SampleApp/project.yml` - XcodeGen spec for sample app
 - `SampleApp/MiniAppsSampleApp.xcodeproj` - generated Xcode project
 - `SampleApp/Sources/App/` - sample app code
+- `docs/INTEGRATION_GUIDE.md` - end-to-end iOS integration guide
+- `docs/FLOWS.md` - flow charts for all key SDK flows
 
 ## Run the Sample App
 
@@ -33,3 +35,8 @@ If you edit `SampleApp/project.yml`, regenerate the project:
 cd SampleApp
 xcodegen generate --spec project.yml
 ```
+
+## Documentation
+
+- End-to-end integration: `docs/INTEGRATION_GUIDE.md`
+- Flow charts: `docs/FLOWS.md`
